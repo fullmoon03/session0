@@ -1,0 +1,91 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+*/
+@font-face {
+    font-family: 'GangwonEduSaeeum_OTFMediumA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+mark {
+    color: black;
+    background-color: yellow;
+}
+*/
+/*
+li {
+    list-style: ;
+    font-size: 20px;
+    font-weight: 700;
+}*/
+.container {
+    width: 88%;
+    color: black;
+    margin: 0 auto;
+    /*무슨 의미?*/
+    padding: 40px;
+    margin: 60px;
+    text-align: center;
+}
+#contentWrapper {
+    max-width: 500px;
+    font-family: 'GangwonEdu_OTFBoldA';
+    margin: 0 auto;
+  }
+.class1 {
+    
+    /*margin-bottom: 50px;*/
+    font-family: 'GangwonEdu_OTFBoldA';
+    font-size: 20px;
+    width: 450px;
+    color: black;
+    background-color: whitesmoke;
+    border: 3px solid goldenrod;
+    padding: 40px 30px;
+    border-radius: 7px;
+    margin: 7px;
+    text-align: left;
+    line-height: 180%;
+}
+/*id와 class 차이 다시한번*/
+#heart {
+    font-size: 35px;
+    font-family: 'GangwonEduSaeeum_OTFMediumA';
+    font-style :oblique;
+    text-decoration-line: underline;
+    /*text-decoration-style: double;*/
+    text-align: left;
+
+}
+x {
+    color: #f8a201;
+}
+#color1 {
+    background-color: rgb(250, 209, 215);
+}
+#color2 {
+    background-color: rgb(250, 193, 170);
+}
+#color3 {
+    background-color: rgb(253, 253, 213);
+}
+#color4 {
+    background-color: lightgrey;
+}
